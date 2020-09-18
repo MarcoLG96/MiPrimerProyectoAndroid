@@ -18,9 +18,15 @@ public class ActivityDos extends AppCompatActivity {
 
         Toast.makeText(this,
                 "Este es un toast", Toast.LENGTH_LONG).show();
+
+       Toast.makeText(this,
+                "Son mensajes temporales", Toast.LENGTH_LONG).show();
         //Nueva
         Toast.makeText(this,
                 "Gracias", Toast.LENGTH_LONG).show();
+
+       
+
     }
 
     @Override
